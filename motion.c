@@ -483,6 +483,9 @@ static void motion_detected(struct context *cnt, int dev, struct image_data *img
     struct images *imgs = &cnt->imgs;
     struct coord *location = &img->location;
 
+    /* TODO */
+    /* Hook in darknet detect and draw boxes. */
+
     /* Draw location */
     if (cnt->locate_motion_mode == LOCATE_ON) {
 
